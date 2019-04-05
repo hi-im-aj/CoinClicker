@@ -1,0 +1,22 @@
+#navbarHeader {
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	background: #222;
+}
+#navbarHeader ul {
+	list-style: none;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	float: right;
+	right: 5vw;
+}
+#navbarHeader ul li {
+	display: inline-flex;
+	margin: 0 20px;
+}
+#navbarHeader ul li a {
+	text-decoration: none;
+	color: #fff;
+}

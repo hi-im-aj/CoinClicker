@@ -1,0 +1,27 @@
+body {
+	font-family: "Raleway",serif;
+}
+.counter {
+	position: absolute;
+	top: calc(40% - 250px);
+	left: 200px;
+	transform: translate(-25%,-25%);
+	font-size: 25px;
+}
+.cashflow {
+	position: absolute;
+	top: calc(40% - 195px);
+	left: 200px;
+	transform: translate(-50%,-25%);
+	font-size: 8px;
+}
+.coin {
+	position: absolute;
+	top: 40%;
+	left: 200px;
+	transform: translate(-50%,-50%);
+}
+.coin button img {
+	max-width: 300px;
+	max-height: 300px;
+}
