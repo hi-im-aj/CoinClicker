@@ -1,7 +1,7 @@
 <?php
 	session_start();
 	if (isset($_SESSION['username'])) {
-		$avatar = $_SESSION['avatar'];
+		$username = $_SESSION['username'];
 	} else {
 		header("Location: ../login?error=loginfail");
 	}
@@ -17,7 +17,9 @@
 </head>
 <body>
 	<div id="navBar">
+		<p id="usernameDisplay">Welcome <?php echo $username; ?></p>
 		<p id="timeDisplay"></p>
+		<a id="logoutDisplay" href="assets/inc/logout.inc">Save and Exit</a>
 	</div>
 	<div class="counter">
 		<h1 id="counterTxt">0</h1>
@@ -27,15 +29,11 @@
 		<h1 id="cashflowTxt">Cashflow: 0 coins pr second</h1>
 	</div>
 	<div class="coin">
-		<button id="coinBtn"><img src="http://pngimg.com/uploads/coin/coin_PNG36871.png"></button>
+		<img id="coinBtn" src="http://pngimg.com/uploads/coin/coin_PNG36871.png">
 	</div>
-	<div id="flowMenu">
-		<ul>
-			<li><button id="flowBtn_1"><img src=""><h1>Lemon Stand</h1><p>$50</p></button></li>
-			<li><button id="flowBtn_2"><img src=""><h1>Newspaper Delivery</h1><p>$1,000</p></button></li>
-			<li><button id="flowBtn_3"><img src=""><h1>Car Wash</h1><p>$75,000</p></button></li>
-		</ul>
+	<div id="businessMenu">
+		<ul id="businessList"></ul>
 	</div>
+	<script type="text/javascript" src="assets/js/myhub.js"></script>
 </body>
-<script type="text/javascript" src="assets/js/myhub.js"></script>
 </html>
