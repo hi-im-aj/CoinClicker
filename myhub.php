@@ -19,7 +19,7 @@
 	<div id="navBar">
 		<p id="usernameDisplay">Welcome <?php echo $username; ?></p>
 		<p id="timeDisplay"></p>
-		<a id="logoutDisplay" href="assets/inc/logout.inc">Save and Exit</a>
+		<a id="logoutDisplay" href="assets/inc/logout.inc">Save and exit</a>
 	</div>
 	<div class="counter">
 		<h1 id="counterTxt">0</h1>
