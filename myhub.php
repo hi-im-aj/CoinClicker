@@ -32,7 +32,9 @@
 		<img id="coinBtn" src="http://pngimg.com/uploads/coin/coin_PNG36871.png">
 	</div>
 	<div id="businessMenu">
-		<ul id="businessList"></ul>
+		<ul id="businessList">
+			<li><button id="acBtn"><img src=""><h1>Click Booster</h1><p id="acCost">$10</p><p id="acOwned">0</p></button></li>
+		</ul>
 	</div>
 	<script type="text/javascript" src="assets/js/myhub.js"></script>
 </body>
