@@ -41,5 +41,6 @@
 		</ul>
 	</div>
 	<script type="text/javascript" src="assets/js/myhub.js"></script>
+	<script type="text/javascript" src="assets/js/quotes.js"></script>
 </body>
 </html>
