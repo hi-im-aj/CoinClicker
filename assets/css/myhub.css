@@ -47,7 +47,7 @@ body {
 	position: absolute;
 	top: 110px;
 	right: 100px;
-	background: #0aa;
+	background: #222;
 	padding: 25px;
 }
 #businessMenu ul {
@@ -67,4 +67,13 @@ body {
 	right: 5%;
 	transform: translateY(-50%);
 	text-decoration: none;
+}
+#BG {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -100;
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
 }

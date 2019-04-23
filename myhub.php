@@ -16,6 +16,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
+	<div id="BG"></div>
 	<div id="navBar">
 		<p id="usernameDisplay">Welcome <?php echo $username; ?></p>
 		<p id="timeDisplay"></p>
