@@ -22,6 +22,9 @@
 		<p id="timeDisplay"></p>
 		<a id="logoutDisplay" href="assets/inc/logout.inc">Save and exit</a>
 	</div>
+	<div id="quote">
+		<p id="quoteTxt"></p>
+	</div>
 	<div class="counter">
 		<h1 id="counterTxt">0</h1>
 		
