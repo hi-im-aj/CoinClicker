@@ -83,3 +83,6 @@ body {
 	left: 50%;
 	transform: translateX(-50%);
 }
+#quote p {
+	max-width: 750px;
+}
