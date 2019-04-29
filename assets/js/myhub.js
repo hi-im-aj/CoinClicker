@@ -75,6 +75,7 @@ coinBtn.addEventListener("click", function() {
 	cash += acCount;
 	updateDom();
 });
+
 setInterval(function(){
 	cash += cashflow / 10;
 	updateDom();

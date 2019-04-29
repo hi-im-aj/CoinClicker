@@ -16,6 +16,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<div id="BG"></div>
 	<div id="navBar">
 		<p id="usernameDisplay">Welcome <?php echo $username; ?></p>
@@ -42,5 +43,6 @@
 	</div>
 	<script type="text/javascript" src="assets/js/myhub.js"></script>
 	<script type="text/javascript" src="assets/js/quotes.js"></script>
+	<script type="text/javascript" src="assets/js/coinAnim.js"></script>
 </body>
 </html>
